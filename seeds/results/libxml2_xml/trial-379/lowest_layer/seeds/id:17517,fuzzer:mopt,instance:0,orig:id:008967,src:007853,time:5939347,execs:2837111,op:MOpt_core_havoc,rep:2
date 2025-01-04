@@ -1,0 +1,28 @@
+ÿÿÿÿs.xml\
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE notes SYSTEM "dtds/notes.dtd">
+<pfx:notes
+xmlns:pfx="http://namespace/uri/here"
+><note/><b:b xmlns:b='b'></b:b><pfx:note/></pfx:notes>
+\
+dtds/notes.dtd\
+<!--
+This get complgint:
+<ED 'http://namespace/uri/ote | pfx:note )* >
+-->
+
+<!--
+This triggers a diagnostic:
+notes.dtd:13: validity error : Def of notes has duplicate 
+references of note
+<!ELEMENT pfx:notes  ( #PCDATA | pfx:note | note )* >
+-->
+
+<!ELEMENT pfx:notes  ( #PCDATA | pfx:note | note )* >
+
+<!ATTLIST notes
+	xmlns:pfx CDATA #FIXED 'http://namespace/uri/here'
+>
+<!ELEMENT note EMPTY >
+<!ELEMENT pfx:note EMPTY >
+\

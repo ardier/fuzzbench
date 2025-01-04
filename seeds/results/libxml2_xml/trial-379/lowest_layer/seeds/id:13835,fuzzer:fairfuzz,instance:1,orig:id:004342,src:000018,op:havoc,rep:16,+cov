@@ -1,0 +1,24 @@
+∏ml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/">
+]>
+<root>&c;</root>
+\
+oœñxksl"

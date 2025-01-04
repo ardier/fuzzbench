@@ -1,0 +1,8 @@
+substKtutionGroupûÿÿœ\
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/&#37;a;e,atc/typedoesnoteDç
+èATRxist">
+]>
+<root>&c;</root>
+\

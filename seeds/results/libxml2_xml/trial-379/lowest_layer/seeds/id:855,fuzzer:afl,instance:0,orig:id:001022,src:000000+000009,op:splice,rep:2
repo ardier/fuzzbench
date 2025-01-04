@@ -1,0 +1,7 @@
+avka.xml\
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE objednavka SYSTEM "dtds/objedxmlns:tst CDATA #FIXED "http://example.org"
+     tst:att (0|1)   "1""dtds/objedxmlns:tst CDAT>
+]>
+<doc att="1"/>
+\

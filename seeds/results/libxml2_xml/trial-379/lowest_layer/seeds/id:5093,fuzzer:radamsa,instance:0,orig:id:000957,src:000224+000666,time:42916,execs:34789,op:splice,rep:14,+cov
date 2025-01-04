@@ -1,0 +1,14 @@
+tst2.xmç\
+<n:foo x.xml\
+ml\
+<?xml versi\
+t4.dtd2
+<!ENTOTY % percenton='1.0'?>
+<!DOCTYid_e<!ATTLItd'>
+<root>&abc;</root>
+\
+t4.dtd2
+<!ENTOTY % percent "&#x25;">
+<!ENTITY %percent; fe` "ghb">
+<!ENTITY abc "%def;">
+<!ELEMENT r

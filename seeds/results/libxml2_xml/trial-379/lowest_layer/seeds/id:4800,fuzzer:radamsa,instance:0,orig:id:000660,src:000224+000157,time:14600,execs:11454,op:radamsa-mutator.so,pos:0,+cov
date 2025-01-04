@@ -1,0 +1,8 @@
+2.xml\
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo EMPTY>
+<!ATTLIST foo xml:⁦id CD ATA #IMPLIED>󠁓
+]>
+<foo xml:id="bar"/>
+\

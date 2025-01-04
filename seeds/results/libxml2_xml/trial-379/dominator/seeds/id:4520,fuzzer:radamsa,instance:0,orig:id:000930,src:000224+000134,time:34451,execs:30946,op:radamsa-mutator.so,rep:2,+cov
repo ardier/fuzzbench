@@ -1,0 +1,11 @@
+<I4.xml\
+<?xml version='1.33193755189334'?>
+<!DOCTYPE root SYSTEM 't4.dtd'>
+<root><root><root><root>&abc;</root><root>&abc;</root></root></root></root>
+\
+t4.dtd\
+<!ENTITY % percent "&#x25;">
+<!ENTITY %percent "&#x25;">
+<!ENTITY %percent; def "ghi">
+<!ENTITY abc "%def;">
+<!ELEMENT r

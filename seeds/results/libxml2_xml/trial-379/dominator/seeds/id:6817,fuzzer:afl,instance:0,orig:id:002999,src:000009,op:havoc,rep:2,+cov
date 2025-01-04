@@ -1,0 +1,10 @@
+Content-Typexml\
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0d1)   "0"
+     xmlns:tst CDATA #FIXED "http://example.org"
+     tst:att (0|1)   "1">
+]>
+<doc att="1"/>
+\

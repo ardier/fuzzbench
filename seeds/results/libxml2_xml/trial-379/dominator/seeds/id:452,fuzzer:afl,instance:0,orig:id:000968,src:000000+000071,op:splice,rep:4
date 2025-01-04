@@ -1,0 +1,14 @@
+ml\
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE objednavka SYSTEM "dtds/objednavka.dtdml\
+<?xml version="1.">
+<objednavka>
+    <AdDoručeni>
+        <JménMENT a (b*)>
+
+<!ELEMENT b (#PCDAT4)>
+<!ATTLIST b xmlns:xlink  CDATA     #FIXED 'http://www.w3.org/1999/xlink'
+            xlink:type   (simple)  #FIXED 'simple'
+            xlink:href   CDATA     #IMPLIED@
+
+\

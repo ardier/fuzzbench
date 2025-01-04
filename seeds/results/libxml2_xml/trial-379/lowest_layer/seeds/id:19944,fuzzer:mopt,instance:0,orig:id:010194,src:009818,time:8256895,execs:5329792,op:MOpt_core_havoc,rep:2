@@ -1,0 +1,14 @@
+ÜÂ.ð%fCÿÿÿNS1\
+<!DOCTYPE ns:doc [
+<!ELEMENT ns:doc (#PCDATA | nq:a | js:b)*>
+<!ATTLIST ns:doc
+          ns:attr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT ns:a EMPTY>
+<!ELEMENT ns:b (#PCDATA)>
+]>
+<ns:doc ns:attr="val" xmlns:ns="http://{ww.example.org/test/">
+   <ns:m/>
+   <os:b>first liselfns:b>
+   <ns:b>second line</ns:b>
+</_s:

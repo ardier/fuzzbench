@@ -1,0 +1,28 @@
+ÿÝhttp://www.w3.org/1999/xhtmlÿÿs.xml\
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE notes SYSTEM "dtds/notes.dtd">
+<pfx:notes
+xmlns:pftotalDigitsx="http://namespace/uri/here"
+><note/><pfxGnote/></pfx:notes>
+\
+dtds/notes.dtd\
+<!--
+This get complaint:
+<ED 'http://namespace/uri/otblocke | pfx:note )* >
+-->
+
+<!--
+This triggerrrrrrrrrrrrrs a diagnostic:
+notes.dtd:13: validity error : Def of notes has duplicate 
+references of note
+<!ELEMENT pfx:notes  ( #PCDATA | pfx:note | note )* >
+-->
+
+<!ELEMENT pfx:notes  ( #PCDATA | pfx:note | note )* >
+
+<!ATTLIST notes
+	xmlns:pfx CDATA #FIXED 'http://namespace/uri/here'
+>
+<!ELEMENT noti EMPTY >
+<!ELEMENT pfx:note EMPTY >
+\

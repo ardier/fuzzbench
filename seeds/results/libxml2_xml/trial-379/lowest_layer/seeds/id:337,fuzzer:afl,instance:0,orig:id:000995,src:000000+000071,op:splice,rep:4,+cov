@@ -1,0 +1,12 @@
+åÿÿnbjednavka.xml\
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE objednavka SYSTEM "dtds/objednavka.dtd">
+<objednavka>
+    <AdDoruÄeni>
+        <JmÃ©nMENT a (b*)>
+<!ELEmENT b (#PCDATA)>
+<!ATTLIST b xmlns:xlink  CDATA     #FIXED èttp://www.w3.org/1999/xlink'
+            xlink:type   (simple)  #FIXED 'simple'
+            xlink:href   CDATA     #IMPLIED>
+
+\
